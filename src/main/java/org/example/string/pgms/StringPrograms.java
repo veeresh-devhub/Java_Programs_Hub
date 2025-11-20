@@ -1,4 +1,4 @@
-package org.example;
+package org.example.string.pgms;
 
 public class StringPrograms {
 
