@@ -4,12 +4,14 @@ public class Palindrome
 {
     public static String PalindromeCheck(String str)
     {
-        String rev = "";
+        String s = "";
         for(int i=str.length()-1; i>=0; i--)
         {
-            rev = rev+str.charAt(i);
+            s = s.concat(String.valueOf(str.charAt(i)));
         }
-        if(rev.equals(str))
+
+        System.out.println("s:: "+s);
+        if(s.equalsIgnoreCase(str))
         {
             return "Its Palindrome";
         }
@@ -22,7 +24,7 @@ public class Palindrome
 
     public static void main(String[] args)
     {
-        String result = PalindromeCheck("madam");
+        String result = PalindromeCheck("madamkdkjvshdkjfhsdkljhnfkjshdnjkf");
         System.out.println(result);
 
     }
