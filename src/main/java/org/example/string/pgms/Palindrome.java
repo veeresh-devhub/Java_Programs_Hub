@@ -24,7 +24,7 @@ public class Palindrome
 
     public static void main(String[] args)
     {
-        String result = PalindromeCheck("madamkdkjvshdkjfhsdkljhnfkjshdnjkf");
+        String result = PalindromeCheck("java");
         System.out.println(result);
 
     }
