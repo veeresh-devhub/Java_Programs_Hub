@@ -10,7 +10,7 @@ public class Palindrome
             s = s.concat(String.valueOf(str.charAt(i)));
         }
 
-        System.out.println("s:: "+s);
+        System.out.println("s value    :: "+s);
         if(s.equalsIgnoreCase(str))
         {
             return "Its Palindrome";
