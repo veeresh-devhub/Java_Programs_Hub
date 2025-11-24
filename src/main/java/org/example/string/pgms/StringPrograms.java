@@ -8,3 +8,4 @@ public class StringPrograms {
         System.out.println("Today is Monday");
     }
 }
+
