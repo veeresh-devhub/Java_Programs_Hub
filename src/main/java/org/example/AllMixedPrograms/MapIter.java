@@ -28,5 +28,6 @@ public class MapIter
         Map<Integer,String> mp = new HashMap<>(Map.of(1,"a",2,"b",3,"c",4,"d"));
         mapIteration(mp);
         //Map<Integer,String> res = getValue(mp);
+        System.out.println("Pushing into dummy");
     }
 }
