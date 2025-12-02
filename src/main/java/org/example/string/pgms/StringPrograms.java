@@ -6,6 +6,7 @@ public class StringPrograms {
         System.out.println("String Programs:");
         System.out.println("Hi");
         System.out.println("Today is Monday");
+        System.out.println("Edited from GitHub");
     }
 }
 
