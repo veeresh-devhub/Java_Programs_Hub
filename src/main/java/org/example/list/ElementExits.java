@@ -26,7 +26,8 @@ public class ElementExits
         lst.add(20);
         lst.add(30);
         lst.add(40);
-        System.out.println(exits(lst));
+        int result = exits(lst);
+        System.out.println(result);
 
     }
 }
